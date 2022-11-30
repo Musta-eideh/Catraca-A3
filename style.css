@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+}
+
+.conteiner{
+    /*display: grid;*/
+    
+    background-color: #579c2f; 
+    grid-row-start: 2;
+    grid-column-start: 2;
+    width: 50%;
+    grid-row-end: 3;
+    grid-column-end: 5;
+   
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.entrada{
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+    width: 32%;
+    padding-left: 33%;
+}
+
+.info1, .info3{
+  float: left;  
+}
